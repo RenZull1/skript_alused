@@ -10,4 +10,19 @@ git config --global user.email johndoe@example.com
 
 git config --global core.editor nano
 
-3. 
+3. Initsialiseerimine (ainult üks kord alguses töökaustas!)
+
+git init
+
+4. Kasutamine 
+
+a)lisamine jälgimisele ja muudatuste fikseermine
+
+git status
+git add fili_nimi
+got commit -m "muudatuste kirjeldus"
+
+b) muudatuste uurimine
+
+git log
+git show commit_hash 
