@@ -2,19 +2,19 @@
 1. Paigaldamine
 
 Linux : apt-get install git
-
+------------------------------------------------------------------------------
 2. Seadistamine (töötava kasutaja alt)
 
 git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 
 git config --global core.editor nano
-
+------------------------------------------------------------------------------
 3. Initsialiseerimine (ainult üks kord alguses töökaustas!)
 
 git init
-
-4. Kasutamine 
+------------------------------------------------------------------------------
+4. Kasutamine. 
 
 a)lisamine jälgimisele ja muudatuste fikseermine
 
@@ -26,3 +26,4 @@ b) muudatuste uurimine
 
 git log
 git show commit_hash 
+------------------------------------------------------------------------------
