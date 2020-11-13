@@ -27,3 +27,14 @@ b) muudatuste uurimine
 git log
 git show commit_hash 
 ------------------------------------------------------------------------------
+5. Remote kasutamine 
+
+a) github repo ühenduse lisamiseks 
+
+git remote add origin https://github.com/RenZull1/skript_alused.git
+
+b) lokaalne sisu lükkamine githubi 
+
+git push -u origin master
+
+
