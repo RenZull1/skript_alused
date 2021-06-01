@@ -6,5 +6,5 @@
 kasutaja1:qwerty
 kasutaja2:123456
 kasutaja3:qwe123
-kasutaja4:skript
+kasutaja4:github
 
