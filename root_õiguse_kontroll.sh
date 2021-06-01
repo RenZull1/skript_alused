@@ -16,16 +16,16 @@ if [$kontr_kasutaja = "root" ]; then
 		echo "Antud fail eksisteerib"
 		for rida in $(paste -d: $kasutajad $paroolid)
 
-	do 
+	do
 	kasutajanimi=$(echo "$rida")
 	sh lisa_kasutaja $kasutajanimi
 	parool=$(pwgen -s 8 -1)
-		echo "$kasutajanimi:$parool | chpasswd
+		echo "$kasutajanimi:$parool" | chpasswd
 		echo "$kasutajanimi - $parool" >> loodud_kasutajad_paroolidega
 	done
-else 
+else
 echo "Antud failiga $failinimi on tekkinud probleem"
 fi
 fi
 	else
-	 echo"Antud skripti käivitamiseks pead olema "root" kasutaja"
+	 echo "Antud skripti käivitamiseks pead olema root kasutaja"
