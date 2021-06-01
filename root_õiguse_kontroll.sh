@@ -29,3 +29,4 @@ fi
 fi
 	else
 	 echo "Antud skripti käivitamiseks pead olema root kasutaja"
+fi
