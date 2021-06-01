@@ -1,10 +1,10 @@
 #!/bin/bash
-#   
+#
 # kasutajate lisamise skript
 if [ $# -ne 1 ]; then
     echo "Kasutusjuhend: $0 failinimi"	
 else
-	
+
   if [ -f $failinimi -a -r $failinimi ]; then
     echo "fail on korras"
     for nimi in $(cat $failinimi)
